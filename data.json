@@ -22,7 +22,7 @@
             "id": "2",
             "project_name": "Interactive Form",
             "description": "Full Stack JavaScript developers create forms to collect information from users for nearly every website and application they build. For this project, you’ll use your skills to enhance a form so that it’s engaging, interactive, and easy to use.",
-            "technologies": ["HTML", "CSS", "JAVASCRIPT"],
+            "technologies": ["HTML", "CSS", "JAVASCRIPT, JQUERY"],
             "live_link": "https://sheakaren.github.io/Techdegree-Project-03/",
             "github_link": "https://github.com/sheakaren/Techdegree-Project-03",
             "image_urls": ["images/Project-03A.png", "images/Project-03B.png", "images/Project-03C.png", "images/Project-03D.png", "images/Project-03E.png", "images/Project-03F.png"]
@@ -31,7 +31,7 @@
             "id": "3",
             "project_name": "OOP Game Show App",
             "description": "Create a browser-based, word guessing game: Phrase Hunter. You’ll use JavaScript and OOP (Object-Oriented Programming) to select a random, hidden phrase. A player tries to guess the phrase by selecting individual letters from an onscreen keyboard. Can they guess the phrase before they run out of attempts?",
-            "technologies": ["HTML", "CSS", "JAVASCRIPT"],
+            "technologies": ["HTML", "CSS", "JAVASCRIPT, JQUERY"],
             "live_link": "https://sheakaren.github.io/Techdegree-Project-04/",
             "github_link": "https://github.com/sheakaren/Techdegree-Project-04",
             "image_urls": ["images/Project-04A.png", "images/Project-04B.png", "images/Project-04C.png", "images/Project-04D.png", "images/Project-04E.png"]
@@ -40,7 +40,7 @@
             "id": "4",
             "project_name": "Public API Requests",
             "description": "Many sites — Twitter, Facebook, IMDB, and Wikipedia to name a few — offer a vast sea of data that you can access and display on your own web pages. Using JavaScript, you’ll create an employee directory by communicating with a third-party API (Application Programming Interface).",
-            "technologies": ["HTML", "CSS", "JAVASCRIPT"],
+            "technologies": ["HTML", "CSS", "JAVASCRIPT, JQUERY", "API"],
             "live_link": "https://sheakaren.github.io/Techdegree-Project-05/",
             "github_link": "https://github.com/sheakaren/Techdegree-Project-05",
             "image_urls": ["images/Project-05A.png", "images/Project-05B.png", "images/Project-05C.png"]
