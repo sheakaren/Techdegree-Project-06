@@ -14,22 +14,23 @@ app.use('/static', express.static('public'));
 // Enable Express to use Pug
 app.set('view engine', 'pug');
 
-// Set the Routes
-const indexRoute = require('./routes/index.js');
-const aboutRoute = require('./routes/about.js');
+
+//Require the routes folder
+const routes = require('./routes');
+app.use(routes);
+
 
 // 404 Error Handler
 app.use((req, res, next) => {
-    const err = new Error('Not Found');
-    err.status = 404;
-    next(err);
-});
+    const error = new Error('Not Found');
+    error.status = 404;
+    next(error);
+  });
 
 // Also 404 Error Handler
-app.use((err, req, res, next) => {
-    res.locals.error = err;
-    res.status(err.status);
-    res.render('error');
+app.use((error, req, res, next) => {
+    res.locals.error = error;
+    res.render('error')
 });
 
 // Start the Server

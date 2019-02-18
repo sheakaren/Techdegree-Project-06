@@ -7,7 +7,7 @@
             "technologies": ["HTML", "CSS", "JAVASCRIPT"],
             "live_link": "https://sheakaren.github.io/Techdegree-Project-01/",
             "github_link": "https://github.com/sheakaren/Techdegree-Project-01",
-            "image_urls": ["images/Project-01A.png", "images/Project-01B.png", "images/Project-01C.png", "images/Project-01D.png"]
+            "image_urls": ["/static/images/Project-01A.png", "/static/images/Project-01B.png", "/static/images/Project-01C.png", "/static/images/Project-01D.png"]
         },
         {
             "id": "1",
@@ -16,7 +16,7 @@
             "technologies": ["HTML", "CSS", "JAVASCRIPT"],
             "live_link": "https://sheakaren.github.io/Techdegree-Project-02/",
             "github_link": "https://github.com/sheakaren/Techdegree-Project-02",
-            "image_urls": ["images/Project-02A.png", "images/Project-02B.png", "images/Project-02C.png"]
+            "image_urls": ["/static/images/Project-02A.png", "/static/images/Project-02B.png", "/static/images/Project-02C.png"]
         },
         {
             "id": "2",
@@ -25,7 +25,7 @@
             "technologies": ["HTML", "CSS", "JAVASCRIPT, JQUERY"],
             "live_link": "https://sheakaren.github.io/Techdegree-Project-03/",
             "github_link": "https://github.com/sheakaren/Techdegree-Project-03",
-            "image_urls": ["images/Project-03A.png", "images/Project-03B.png", "images/Project-03C.png", "images/Project-03D.png", "images/Project-03E.png", "images/Project-03F.png"]
+            "image_urls": ["/static/images/Project-03A.png", "/static/images/Project-03B.png", "/static/images/Project-03C.png", "/static/images/Project-03D.png", "/static/images/Project-03E.png", "/static/images/Project-03F.png"]
         },
         {
             "id": "3",
@@ -34,7 +34,7 @@
             "technologies": ["HTML", "CSS", "JAVASCRIPT, JQUERY"],
             "live_link": "https://sheakaren.github.io/Techdegree-Project-04/",
             "github_link": "https://github.com/sheakaren/Techdegree-Project-04",
-            "image_urls": ["images/Project-04A.png", "images/Project-04B.png", "images/Project-04C.png", "images/Project-04D.png", "images/Project-04E.png"]
+            "image_urls": ["/static/images/Project-04A.png", "/static/images/Project-04B.png", "/static/images/Project-04C.png", "/static/images/Project-04D.png", "/static/images/Project-04E.png"]
         },
         {
             "id": "4",
@@ -43,7 +43,7 @@
             "technologies": ["HTML", "CSS", "JAVASCRIPT, JQUERY", "API"],
             "live_link": "https://sheakaren.github.io/Techdegree-Project-05/",
             "github_link": "https://github.com/sheakaren/Techdegree-Project-05",
-            "image_urls": ["images/Project-05A.png", "images/Project-05B.png", "images/Project-05C.png"]
+            "image_urls": ["/static/images/Project-05A.png", "/static/images/Project-05B.png", "/static/images/Project-05C.png"]
         }
     ]
 }
