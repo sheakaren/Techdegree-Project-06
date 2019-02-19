@@ -1,4 +1,9 @@
 extends layout.pug
 
 block content
-    h1 An error has occurred
+    center
+        h1 Ruh-roh! An error has occurred
+        h1= error.message
+        h2= error.status
+    hr
+    pre= error.stack

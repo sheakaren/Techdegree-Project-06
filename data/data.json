@@ -2,48 +2,78 @@
     "projects": [
         {
             "id": "0",
-            "project_name": "A Random Quote Generator",
+            "project_name": "Project 1: A Random Quote Generator",
             "description": "Practice your knowledge of basic JavaScript syntax and data structures by building a Random Quote Generator, a program that displays a randomly selected quote each time the user clicks a button.",
-            "technologies": ["HTML", "CSS", "JAVASCRIPT"],
+            "technologies": ["HTML", 
+                                "CSS", 
+                                "JAVASCRIPT"],
             "live_link": "https://sheakaren.github.io/Techdegree-Project-01/",
             "github_link": "https://github.com/sheakaren/Techdegree-Project-01",
-            "image_urls": ["/static/images/Project-01A.png", "/static/images/Project-01B.png", "/static/images/Project-01C.png", "/static/images/Project-01D.png"]
+            "image_urls": ["/static/images/Project-01A.png", 
+                            "/static/images/Project-01B.png", 
+                            "/static/images/Project-01C.png", 
+                            "/static/images/Project-01D.png"]
         },
         {
             "id": "1",
-            "project_name": "List Pagination and Filtering",
+            "project_name": "Project 2: List Pagination and Filtering",
             "description": "Long lists don't make for a good user experience on a web page. In this project, you'll enhance the usability of a web page that contains a long list by employing JavaScript to dynamically divide the list into pages. As a bonus challenge, you'll add a search feature to display only the students that match specific search criteria.",
-            "technologies": ["HTML", "CSS", "JAVASCRIPT"],
+            "technologies": ["HTML", 
+                                "CSS", 
+                                "JAVASCRIPT"],
             "live_link": "https://sheakaren.github.io/Techdegree-Project-02/",
             "github_link": "https://github.com/sheakaren/Techdegree-Project-02",
-            "image_urls": ["/static/images/Project-02A.png", "/static/images/Project-02B.png", "/static/images/Project-02C.png"]
+            "image_urls": ["/static/images/Project-02A.png", 
+                            "/static/images/Project-02B.png", 
+                            "/static/images/Project-02C.png"]
         },
         {
             "id": "2",
-            "project_name": "Interactive Form",
+            "project_name": "Project 3: Interactive Form",
             "description": "Full Stack JavaScript developers create forms to collect information from users for nearly every website and application they build. For this project, you’ll use your skills to enhance a form so that it’s engaging, interactive, and easy to use.",
-            "technologies": ["HTML", "CSS", "JAVASCRIPT, JQUERY"],
+            "technologies": ["HTML", 
+                                "CSS", 
+                                "JAVASCRIPT", 
+                                "JQUERY"],
             "live_link": "https://sheakaren.github.io/Techdegree-Project-03/",
             "github_link": "https://github.com/sheakaren/Techdegree-Project-03",
-            "image_urls": ["/static/images/Project-03A.png", "/static/images/Project-03B.png", "/static/images/Project-03C.png", "/static/images/Project-03D.png", "/static/images/Project-03E.png", "/static/images/Project-03F.png"]
+            "image_urls": ["/static/images/Project-03A.png", 
+                            "/static/images/Project-03B.png", 
+                            "/static/images/Project-03C.png", 
+                            "/static/images/Project-03D.png", 
+                            "/static/images/Project-03E.png", 
+                            "/static/images/Project-03F.png"]
         },
         {
             "id": "3",
-            "project_name": "OOP Game Show App",
+            "project_name": "Project 4: OOP Game Show App",
             "description": "Create a browser-based, word guessing game: Phrase Hunter. You’ll use JavaScript and OOP (Object-Oriented Programming) to select a random, hidden phrase. A player tries to guess the phrase by selecting individual letters from an onscreen keyboard. Can they guess the phrase before they run out of attempts?",
-            "technologies": ["HTML", "CSS", "JAVASCRIPT, JQUERY"],
+            "technologies": ["HTML", 
+                                "CSS", 
+                                "JAVASCRIPT", 
+                                "JQUERY"],
             "live_link": "https://sheakaren.github.io/Techdegree-Project-04/",
             "github_link": "https://github.com/sheakaren/Techdegree-Project-04",
-            "image_urls": ["/static/images/Project-04A.png", "/static/images/Project-04B.png", "/static/images/Project-04C.png", "/static/images/Project-04D.png", "/static/images/Project-04E.png"]
+            "image_urls": ["/static/images/Project-04A.png", 
+                            "/static/images/Project-04B.png", 
+                            "/static/images/Project-04C.png", 
+                            "/static/images/Project-04D.png", 
+                            "/static/images/Project-04E.png"]
         },
         {
             "id": "4",
-            "project_name": "Public API Requests",
+            "project_name": "Project 5: Public API Requests",
             "description": "Many sites — Twitter, Facebook, IMDB, and Wikipedia to name a few — offer a vast sea of data that you can access and display on your own web pages. Using JavaScript, you’ll create an employee directory by communicating with a third-party API (Application Programming Interface).",
-            "technologies": ["HTML", "CSS", "JAVASCRIPT, JQUERY", "API"],
+            "technologies": ["HTML", 
+                                "CSS", 
+                                "JAVASCRIPT", 
+                                "JQUERY", 
+                                "API"],
             "live_link": "https://sheakaren.github.io/Techdegree-Project-05/",
             "github_link": "https://github.com/sheakaren/Techdegree-Project-05",
-            "image_urls": ["/static/images/Project-05A.png", "/static/images/Project-05B.png", "/static/images/Project-05C.png"]
+            "image_urls": ["/static/images/Project-05A.png", 
+                            "/static/images/Project-05B.png", 
+                            "/static/images/Project-05C.png"]
         }
     ]
 }
