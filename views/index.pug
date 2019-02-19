@@ -19,38 +19,8 @@ block content
       //- Use a combination of interpolation and template literals as needed to dynamically generate the the routes in the href, as well as the img's src and the projects title.
       
       //-  Just trying to get the iteration working at all so I'm just listing something basic to see if it will work.
-  each val in project.project_name
-    li val 
-
-
-      //- //- Having trouble with the iteration on this so here's my backup plan:
-      //- .cell
-      //-   a(href='#')
-      //-     img.thumbnail(src='/static/images/Project-01A.png')
-      //-     h5 
-      //-       center
-      //-         | A Random Quote Generator
-      //- .cell
-      //-   a(href='#')
-      //-     img.thumbnail(src='/static/images/Project-02A.png')
-      //-     h5 
-      //-       center
-      //-         | List Pagination and Filtering
-      //- .cell
-      //-   a(href='#')
-      //-     img.thumbnail(src='/static/images/Project-03A.png')
-      //-     h5 
-      //-       center
-      //-         | Interactive Form
-      //- .cell
-      //-   a(href='#')
-      //-     img.thumbnail(src='/static/images/Project-04A.png')
-      //-     h5 
-      //-       center
-      //-         | OOP Game Show App
-      //- .cell
-      //-   a(href='#')
-      //-     img.thumbnail(src='/static/images/Project-05A.png')
-      //-     h5 
-      //-       center
-      //-         | Public API Requests     
+  each project in projects
+    .cell
+      a(href=`/projects/${project.id}`)
+        img.thumbnail(src=`${project.image_urls[1]}`)
+        h5= project.projectName
