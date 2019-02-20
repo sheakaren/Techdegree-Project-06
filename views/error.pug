@@ -1,11 +1,13 @@
 extends layout.pug
 
 block content
+    nav.grid-container.portfolio-breadcrumb
+        a(href='/') ← Home
     center
         h1 Ruh-roh! Something bad happened
-        hr
+        br
         h4= error.message
-        hr
+        br
         h4= error.status
-    hr
+    br
     pre= error.stack
