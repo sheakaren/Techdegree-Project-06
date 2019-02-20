@@ -9,7 +9,7 @@ const data = require('../data/data.json');
 
 // Redirect to Index page
 router.get('/', (req, res) => {
-    res.render('index')
+    res.redirect('index')
   });
 
 // Render the Index Page
