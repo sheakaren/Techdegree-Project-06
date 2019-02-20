@@ -18,9 +18,8 @@ block content
       
       //- Use a combination of interpolation and template literals as needed to dynamically generate the the routes in the href, as well as the img's src and the projects title.
       
-      //-  Just trying to get the iteration working at all so I'm just listing something basic to see if it will work.
-  each project in data.projects
+ each project in projects
     .cell
       a(href=`/project/${project.id}`)
-        img.thumbnail(src=`${project.image_urls[1]}`)
+        img.thumbnail(src=`${project.image_urls[0]}`)
         h5= project.project_name
