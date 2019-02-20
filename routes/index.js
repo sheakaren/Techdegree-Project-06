@@ -14,13 +14,13 @@ router.get('/', (req, res) => {
 
 // Render the Index Page
 router.get('/index', (req, res) => {
-  const projects = data["projects"];
+  const projects = {data};
   res.render('index', { projects } );
 });
 
 // Render the About Page
 router.get('/about', (req, res) => {
-  res.render('about');
+  res.render('about', {projects: data});
   res.app.locals = data.projects;
 });
 
@@ -35,7 +35,7 @@ router.get('/project/:id', (req, res) => {
   const {project} = data;
   const {id} = req.params;
   // Render the above variables as projects
-  res.render('project', {id, project});
+  res.render('project', {project, id});
 });
 
 
