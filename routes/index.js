@@ -5,7 +5,7 @@ const express = require('express');
 const router = express.Router();
 
 // Require the JSON file with all project data
-const data = require('../data/data.json');
+const {data} = require('../data/data.json');
 
 // Redirect to Index page
 router.get('/', (req, res) => {
@@ -14,13 +14,13 @@ router.get('/', (req, res) => {
 
 // Render the Index Page
 router.get('/index', (req, res) => {
-  const projects = {data};
+  const projects = data["projects"];
   res.render('index', { projects } );
 });
 
 // Render the About Page
 router.get('/about', (req, res) => {
-  res.render('about', {projects: data});
+  res.render('about');
   res.app.locals = data.projects;
 });
 
@@ -30,12 +30,12 @@ router.get('/about', (req, res) => {
 
  // Unsure how to do this...
 
-router.get('/project/:id', (req, res) => {
+router.get('/projects/:id', (req, res) => {
   // Add data as an object that contains data to be passed to the Pug template
-  const {project} = data;
-  const {id} = req.params;
+  const projects = data["projects"];
+  const id = req.params.id;
   // Render the above variables as projects
-  res.render('project', {project, id});
+  res.render('projects', {id, projects});
 });
 
 
